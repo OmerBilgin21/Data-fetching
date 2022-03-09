@@ -3,12 +3,13 @@ body {
 }
 ul {
     display: flex;
-    width: 400px;
+    width: 50px;
     margin-top: 3px;
     margin-left: 3px;
     margin-right: 3px;
     margin-bottom: 10px;
     padding: 0;
+    transition: width 250ms;
     li {
         .inside-card {
             display: none;
@@ -22,7 +23,7 @@ ul {
     }
     &:hover {
         font-weight: bold;
-
+        width: 400px;
         .inside-card {
             display: list-item;
         }

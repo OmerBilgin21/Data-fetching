@@ -6,12 +6,14 @@ ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 400px;
+  width: 50px;
   margin-top: 3px;
   margin-left: 3px;
   margin-right: 3px;
   margin-bottom: 10px;
   padding: 0;
+  -webkit-transition: width 250ms;
+  transition: width 250ms;
 }
 
 ul li {
@@ -29,6 +31,7 @@ ul li p {
 
 ul:hover {
   font-weight: bold;
+  width: 400px;
 }
 
 ul:hover .inside-card {
