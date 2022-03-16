@@ -15,3 +15,5 @@ The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
 THE PURCHASEORDER.JSON FILE IS AT THE PUBLİC DİRECTORY
+
+Added description to the repository
